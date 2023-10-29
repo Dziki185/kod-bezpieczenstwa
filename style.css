@@ -1,0 +1,62 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container{
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+}
+#navigation{
+    float: left;
+    width: 180px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ededed;
+    height: 630px;
+    text-align: justify;
+}
+
+
+#content{
+    float: left;    
+    width: 580px;
+    margin-left: 0px;
+    font-size: 19px;
+    padding: 10px;
+    background-color: whitesmoke;
+    min-height: 630px;
+}
+#adsense{
+    float: left;
+    height: 650px;
+    background-color: whitesmoke;
+}
+#fotter{
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+h4{
+    font-size: 25px;
+}
+
+
