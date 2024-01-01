@@ -1,0 +1,266 @@
+body
+{
+	margin:0;
+    background-color: #0e0f0f;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.bg-kod{
+    color: white;
+    background-color: #045c04;
+}
+.glownemenu{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.glownemenu > li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar {
+    padding: 5px 20px 5px 20px
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0a3506
+}
+.color{
+    color: #008500;
+}
+.wprowadzenie{
+    padding: 25px;
+    text-align: center;
+}
+.wprowadzenie p{
+    padding: 10px;
+}
+.h2-logo{
+    font-weight: 400;
+    font-size: 44px;
+}
+.width{
+    width: 250px;
+    height: 250px;
+}
+.poszedl{
+    border-radius: 5px;
+}
+@media (max-width: 575px)
+{
+	.wd40 img{
+        display: none;
+    }
+   .poszedl{
+    display: none;
+    text-align: center;
+    font-size: 0.5rem;
+   }
+} 
+
+.row img {
+    width: 75%;
+    height: auto;
+}
+.zakrzywienie{
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+.zakrzywienie:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+.bg-wpisy{
+    background-color: #181717;
+    border-radius: 10px;
+}
+.kolo{
+    border-radius: 5px;
+}
+
+.width-wpisy{
+    width: auto;
+    background-color: #303030;
+
+}
+.wstepnyobrazek{
+    width: 110px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.wstepnyobrazek img{
+    width: 100px;
+    height: 100px;
+}
+.wstepnytekst{
+    width: 750px;
+    display: inline-block;
+    font-size: 15px;
+}
+.wpisy{
+    background-color: #303030;
+    border-radius: 10px;
+}
+.hover:hover{
+    background-color: #222222;
+}
+.hover{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.margines{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h2-zdj{
+    font-size: 40px;
+}
+.rozmiar{
+    font-size: 20px;
+}
+.maly-tekst{
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+button[type="submit"] {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #008000;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+button[type="submit"]:hover {
+    background-color: #006400;
+}
+
+/*### Styl dla XS ### */
+@media (max-width: 768px) {
+    input[type="email"],
+    textarea,
+    button[type="submit"] {
+        width: 90%;
+        margin: 8px auto;
+    }
+}
+.socials
+{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color: #181717;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb
+ {
+     width: 250px;
+     height: 155px;
+     transition: all 0.2s ease-in-out;
+
+ }
+ 
+ .fb:hover
+ {
+     background-color: #4668b3;
+ }
+ 
+ .yt
+ {
+    transition: all 0.2s ease-in-out;
+     width: 250px;
+     height: 155px;
+
+ }
+ 
+ .yt:hover
+ {
+     background-color: #d94348;
+ }
+ 
+ .tw
+ {
+    transition: all 0.2s ease-in-out;
+     width: 250px;
+     height: 155px;
+
+ }
+ 
+ .tw:hover
+ {
+     background-color: #3095d3;
+ }
+ .border-r{
+    border-radius: 10px;
+ }
+ .centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.background-div {
+    background-color: black;
+    color: white;
+}
+.font{
+    font-size: 18px;
+    
+}
+.bg-wpis{
+    background-color: #0e0e0e;
+    color: white;
+}
+.wstep{
+    font-size: 18px;
+    font-weight: 300;
+}
+.linki:hover{
+    text-decoration: none;
+
+}
+.list-group-item-dark {
+    color: #ffffff;
+    background-color: #1d1d1d !important;
+  }
+  .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    border: solid #006900 3px;
+
+  }
